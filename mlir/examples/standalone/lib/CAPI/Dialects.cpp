@@ -9,7 +9,12 @@
 #include "Standalone-c/Dialects.h"
 
 #include "Standalone/StandaloneDialect.h"
+#include "Dog/DogDialect.h"
+#include "Cat/Cat.h"
 #include "mlir/CAPI/Registration.h"
 
 MLIR_DEFINE_CAPI_DIALECT_REGISTRATION(Standalone, standalone,
                                       mlir::standalone::StandaloneDialect)
+
+MLIR_DEFINE_CAPI_DIALECT_REGISTRATION(Dog, dog, mlir::dog::DogDialect)
+MLIR_DEFINE_CAPI_DIALECT_REGISTRATION(Cat, cat, mlir::cat::CatDialect)

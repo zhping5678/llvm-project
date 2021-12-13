@@ -16,6 +16,8 @@ extern "C" {
 #endif
 
 MLIR_DECLARE_CAPI_DIALECT_REGISTRATION(Standalone, standalone);
+MLIR_DECLARE_CAPI_DIALECT_REGISTRATION(Dog, dog);
+MLIR_DECLARE_CAPI_DIALECT_REGISTRATION(Cat, cat);
 
 #ifdef __cplusplus
 }
