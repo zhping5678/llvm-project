@@ -1,4 +1,4 @@
-// #ifndef DOG_DOGOPS_H
+#ifndef DOG_DOGOPS_H
 #define DOG_DOGOPS_H
 
 #include "mlir/IR/BuiltinTypes.h"
@@ -9,4 +9,5 @@
 #define GET_OP_CLASSES
 #include "Dog/DogOps.h.inc"
 
-// #endif
+#endif
+

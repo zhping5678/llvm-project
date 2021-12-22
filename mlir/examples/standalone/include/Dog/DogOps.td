@@ -1,5 +1,5 @@
 // DogDialect.td —— define dialect and template of ops and ops
-// #ifndef DOG_OPS
+#ifndef DOG_OPS
 #define DOG_OPS
 
 include "Dog/DogDialect.td"
@@ -19,4 +19,5 @@ def DogFooOp : Dog_Op<"dog_foo", [NoSideEffect, SameOperandsAndResultType]> {
     }];
 }
 
-// #endif
+#endif
+
